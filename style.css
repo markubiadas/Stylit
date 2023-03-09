@@ -113,13 +113,17 @@ body {
     justify-content: center;
 }
 
-#hero h4 {
-    padding-bottom: 1rem;
-}
-
 #hero h1 {
     color: #088178;
-    /* font-size: 4.5rem; */
+    font-size: 4.5rem;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+}
+
+#hero h4 {
+    padding-bottom: 1rem;
 }
 
 #hero button {
@@ -625,7 +629,22 @@ footer a:hover {
         margin-bottom: 1rem;
         min-width: 50%;
         height: 40vh;
-        
+    }
+    #hero h1 {
+        color: #088178;
+        font-size: 3.5rem;
+    }
+    
+    #hero h2 {
+        font-size: 2.5rem;
+    }
+    
+    #hero h4 {
+        padding-bottom: 1rem;
+    }
+
+    #hero p {
+        font-size: 1.3rem;
     }
 }
 
@@ -646,6 +665,23 @@ footer a:hover {
         flex-direction: column;
         align-items: flex-start;
         justify-content: center; */
+    }
+
+    #hero h1 {
+        color: #088178;
+        font-size: 2.5rem;
+    }
+    
+    #hero h2 {
+        font-size: 1.5rem;
+    }
+    
+    #hero h4 {
+        padding-bottom: 1rem;
+    }
+
+    #hero p {
+        font-size: 0.8rem;
     }
 
     #feature {
@@ -692,6 +728,23 @@ footer a:hover {
     #hero {
         background-position: 55%;
         padding: 0 20px;
+    }
+
+    #hero h1 {
+        color: #088178;
+        font-size: 2.5rem;
+    }
+    
+    #hero h2 {
+        font-size: 1.5rem;
+    }
+    
+    #hero h4 {
+        padding-bottom: 1rem;
+    }
+
+    #hero p {
+        font-size: 0.8rem;
     }
 
     #feature {
