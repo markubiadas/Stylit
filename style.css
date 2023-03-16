@@ -636,6 +636,7 @@ footer a:hover {
     width: 100%;
     position: relative;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 #blog .blog-img {
