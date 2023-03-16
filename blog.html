@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stylit - Blog</title>
+    <title>Ecommerce Website</title>
 
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -18,8 +19,10 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- ================ NAVBAR ================= -->
+
+    <!-- ================================ HEADER SECTION ================================ -->
     <section id="header">
         <nav class="navbar navbar-expand-lg bg-body-secondary">
             <div class="container-fluid">
@@ -36,10 +39,10 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link current" href="shop.html">Shop</a>
+                            <a class="nav-link" href="shop.html">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="blog.html">Blog</a>
+                            <a class="nav-link current" href="blog.html">Blog</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
@@ -51,15 +54,126 @@
                             <a class="nav-link" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
                         </li>
                     </ul>
-                    <!-- <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
                 </div>
             </div>
         </nav>
     </section>
 
+    <!-- ================ HERO SECTION ================= -->
+    <section id="page-header" class="blog-header">
+
+        <h2>#shareit</h2>
+
+        <p>Read reviews from real people</p>
+
+    </section>
+
+    <!-- ================ PRODUCT1 SECTION ================= -->
+
+
+    <section id="blog">
+        <div class="blog-box">
+            <div class="blog-img">
+                <h1>13/01</h1>
+                <img src="img/blog/b1.jpg" alt="blog image">
+            </div>
+            <div class="blog-details">
+                <h4>Cotton Jersey Zipper Hoodie</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi laboriosam architecto labore exercitationem explicabo doloremque.</p>
+                <a href="#">Continue Reading</a>
+            </div>
+            <!-- <h1>13/01</h1> -->
+        </div>
+    </section>
+
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+    </section>
+
+
     
+
+
+    <!-- ================ NEWS LETTER SECTION ================= -->
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Get Email updates about our latest collection and <span>special offers</span>.</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <!-- ================ FOOTER SECTION ================= -->
+    <footer class="section-p1">
+
+        <div class="col-lg-5 col-12 mb-5">
+            <img class="logo" src="img/stylit.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 123 Fake Road, Street 123, San Francisco, CA</p>
+            <p><strong>Phone:</strong> +1 (123)456-7890</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col col-lg-2 col-6">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col col-lg-2 col-6">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col col-lg-2 install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+
+    </footer>
+    <div class="copyright">
+        <p>2023 Mark Ubiadas - Ecommerce Website</p>
+    </div>
+
+
+
+    <!-- ======================= BOOTSTRAP AND CUSTOM JAVASCRIPT FILES ======================== -->
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
 </body>
+
 </html>
