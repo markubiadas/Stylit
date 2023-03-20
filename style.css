@@ -685,6 +685,10 @@ footer a:hover {
     color: #c9cbce;
 }
 
+/* =================ABOUT PAGE==================== */
+#page-header.about-header{
+    background-image: url('img/about/banner.png');
+}
 
 
 /* ==================== MEDIA QUERY ===================== */
