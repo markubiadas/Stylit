@@ -690,6 +690,17 @@ footer a:hover {
     background-image: url('img/about/banner.png');
 }
 
+#about-head {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#about-head img {
+    width: 50%;
+    height: auto;
+}
+
 
 /* ==================== MEDIA QUERY ===================== */
 
@@ -911,6 +922,16 @@ footer a:hover {
     }
 
     #blog .blog-details {
+        width: 100%;
+    }
+
+    /* About Page */
+
+    #about-head {
+        flex-direction: column;
+    }
+
+    #about-head img {
         width: 100%;
     }
 }
