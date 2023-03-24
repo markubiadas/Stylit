@@ -82,3 +82,22 @@ function productSubtotal(elem){
 
 document.querySelector(".cart-product-quantity").addEventListener("change", productSubtotal);
 
+// function removeProduct(elem){
+//     console.log("removed")
+//     document.querySelector("cart").innerHTML = "";
+//     document.querySelector(".cart").innerHTML = "<h1>No product in cart</h1>";
+// }
+
+function removeProduct(elem){
+    console.log("removed");
+    var cartElem = document.querySelector("#cart");
+    if (cartElem !== null) {
+        cartElem.innerHTML = `
+        <h2 class="text-center">No Product in Cart</h2>
+        `;
+    }
+    document.querySelector(".cart-total-subtotal").innerText = 0;
+    document.querySelector(".cart-shipping-fee").innerText = 0;
+    document.querySelector(".cart-total-total").innerText = 0;
+
+}
