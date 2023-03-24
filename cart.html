@@ -86,9 +86,9 @@
                     <td><a href="#"><i class="far fa-times-circle"></i></a></td>
                     <td><img src="img/products/f1.jpg" alt="colored collared shirt"></td>
                     <td>Tillys Floral Shirt</td>
-                    <td>$45.00</td>
-                    <td><input type="number" value="1"></td>
-                    <td>$45.00</td>
+                    <td>$ <span class="cart-product-price">45</span></td>
+                    <td><input class="cart-product-quantity" type="number" min="1" value="1" onchange="productSubtotal()"></td>
+                    <td>$ <span class="cart-product-subtotal">45</span></td>
                 </tr>
             </tbody>
         </table>
@@ -110,15 +110,15 @@
                 <tbody>
                     <tr>
                         <td>Cart Subtotal</td>
-                        <td>$ 45</td>
+                        <td>$ <span class="cart-total-subtotal">45</span></td>
                     </tr>
                     <tr>
                         <td>Shipping</td>
-                        <td class="shipping-fee">$ 10</td>
+                        <td class="shipping-fee">$ <span class="cart-shipping-fee">10</span></td>
                     </tr>
                     <tr>
                         <td><strong>Total</strong></td>
-                        <td><strong>$ 45</strong></td>
+                        <td><strong>$ <span class="cart-total-total">55</span></strong></td>
                     </tr>
                 </tbody>
             </table>
