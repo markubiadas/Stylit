@@ -14,7 +14,7 @@
 * Coupon section for discounts on purchases
 * Blog section featuring informative articles on fashion and lifestyle
 
-Technologies used in this project:
+ <h3>Technologies used in this project:</h3>
 
 * HTML
 * CSS
