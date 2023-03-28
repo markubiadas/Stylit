@@ -126,7 +126,7 @@ body {
     padding-bottom: 1rem;
 }
 
-#hero button {
+/* #hero button {
     background-image: url("img/button.png");
     background-color: transparent;
     color: #088178;
@@ -136,7 +136,7 @@ body {
     cursor: pointer;
     font-weight: 700;
     font-size: 1rem;
-}
+} */
 
 /* ==================== Feature Section ===================== */
 #feature {
@@ -517,7 +517,7 @@ footer a:hover {
 /* =========================================== SHOP PAGE ============================================ */
 
 #page-header {
-    background-image: url("img/banner/b1.jpg");
+    background-image: url("/img/banner/b1.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
