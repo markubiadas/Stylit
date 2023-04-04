@@ -2,6 +2,7 @@
  
 <h2>What is Stylit</h2>
 <p>Stylit is an e-commerce website designed using HTML, CSS, and JavaScript to offer a unique online shopping experience. The website has a clean and modern layout with an intuitive interface that makes navigation easy for users.</p>
+<a href="https://mark-ecommerce.netlify.app/" target="_blank" rel="noopener noreferrer">Live Site</a>
 
 <hr/>
 
